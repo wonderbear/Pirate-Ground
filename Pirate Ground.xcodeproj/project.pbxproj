@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		262351D01A1A854E000CD6FD /* Locale.m in Sources */ = {isa = PBXBuildFile; fileRef = 262351CF1A1A854E000CD6FD /* Locale.m */; };
+		26798AB41A02AD33000B31AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26798AB31A02AD33000B31AF /* main.m */; };
+		26798AB71A02AD33000B31AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26798AB61A02AD33000B31AF /* AppDelegate.m */; };
+		26798ABA1A02AD33000B31AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26798AB91A02AD33000B31AF /* ViewController.m */; };
+		26798ABD1A02AD33000B31AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26798ABB1A02AD33000B31AF /* Main.storyboard */; };
+		26798ABF1A02AD33000B31AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26798ABE1A02AD33000B31AF /* Images.xcassets */; };
+		26798AC21A02AD33000B31AF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26798AC01A02AD33000B31AF /* LaunchScreen.xib */; };
+		26798ACE1A02AD33000B31AF /* Pirate_GroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26798ACD1A02AD33000B31AF /* Pirate_GroundTests.m */; };
+		26798AD91A02AD53000B31AF /* Tile.m in Sources */ = {isa = PBXBuildFile; fileRef = 26798AD81A02AD53000B31AF /* Tile.m */; };
+		26798ADC1A02AE72000B31AF /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = 26798ADB1A02AE72000B31AF /* Character.m */; };
+		26798ADF1A02AEA7000B31AF /* Armor.m in Sources */ = {isa = PBXBuildFile; fileRef = 26798ADE1A02AEA7000B31AF /* Armor.m */; };
+		26798AE21A02AEB1000B31AF /* Weapon.m in Sources */ = {isa = PBXBuildFile; fileRef = 26798AE11A02AEB1000B31AF /* Weapon.m */; };
+		26798AE51A02B4DC000B31AF /* Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 26798AE41A02B4DB000B31AF /* Factory.m */; };
+		26798AE81A02B53C000B31AF /* Boss.m in Sources */ = {isa = PBXBuildFile; fileRef = 26798AE71A02B53C000B31AF /* Boss.m */; };
+		269EC7311A1E5211005DBB05 /* TreasureChest.m in Sources */ = {isa = PBXBuildFile; fileRef = 269EC7301A1E5211005DBB05 /* TreasureChest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26798AC81A02AD33000B31AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26798AA61A02AD33000B31AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26798AAD1A02AD33000B31AF;
+			remoteInfo = "Pirate Ground";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		262351CE1A1A854E000CD6FD /* Locale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Locale.h; sourceTree = "<group>"; };
+		262351CF1A1A854E000CD6FD /* Locale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Locale.m; sourceTree = "<group>"; };
+		26798AAE1A02AD33000B31AF /* Pirate Ground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pirate Ground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26798AB21A02AD33000B31AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26798AB31A02AD33000B31AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		26798AB51A02AD33000B31AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		26798AB61A02AD33000B31AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		26798AB81A02AD33000B31AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		26798AB91A02AD33000B31AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		26798ABC1A02AD33000B31AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26798ABE1A02AD33000B31AF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		26798AC11A02AD33000B31AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		26798AC71A02AD33000B31AF /* Pirate GroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pirate GroundTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26798ACC1A02AD33000B31AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26798ACD1A02AD33000B31AF /* Pirate_GroundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pirate_GroundTests.m; sourceTree = "<group>"; };
+		26798AD71A02AD53000B31AF /* Tile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tile.h; sourceTree = "<group>"; };
+		26798AD81A02AD53000B31AF /* Tile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tile.m; sourceTree = "<group>"; };
+		26798ADA1A02AE72000B31AF /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Character.h; sourceTree = "<group>"; };
+		26798ADB1A02AE72000B31AF /* Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Character.m; sourceTree = "<group>"; };
+		26798ADD1A02AEA7000B31AF /* Armor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Armor.h; sourceTree = "<group>"; };
+		26798ADE1A02AEA7000B31AF /* Armor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Armor.m; sourceTree = "<group>"; };
+		26798AE01A02AEB1000B31AF /* Weapon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Weapon.h; sourceTree = "<group>"; };
+		26798AE11A02AEB1000B31AF /* Weapon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Weapon.m; sourceTree = "<group>"; };
+		26798AE31A02B4DB000B31AF /* Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Factory.h; sourceTree = "<group>"; };
+		26798AE41A02B4DB000B31AF /* Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Factory.m; sourceTree = "<group>"; };
+		26798AE61A02B53C000B31AF /* Boss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Boss.h; sourceTree = "<group>"; };
+		26798AE71A02B53C000B31AF /* Boss.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Boss.m; sourceTree = "<group>"; };
+		269EC72F1A1E5211005DBB05 /* TreasureChest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreasureChest.h; sourceTree = "<group>"; };
+		269EC7301A1E5211005DBB05 /* TreasureChest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreasureChest.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26798AAB1A02AD33000B31AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26798AC41A02AD33000B31AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26798AA51A02AD33000B31AF = {
+			isa = PBXGroup;
+			children = (
+				26798AB01A02AD33000B31AF /* Pirate Ground */,
+				26798ACA1A02AD33000B31AF /* Pirate GroundTests */,
+				26798AAF1A02AD33000B31AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26798AAF1A02AD33000B31AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26798AAE1A02AD33000B31AF /* Pirate Ground.app */,
+				26798AC71A02AD33000B31AF /* Pirate GroundTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26798AB01A02AD33000B31AF /* Pirate Ground */ = {
+			isa = PBXGroup;
+			children = (
+				26798AB51A02AD33000B31AF /* AppDelegate.h */,
+				26798AB61A02AD33000B31AF /* AppDelegate.m */,
+				26798ADA1A02AE72000B31AF /* Character.h */,
+				26798ADB1A02AE72000B31AF /* Character.m */,
+				26798AE61A02B53C000B31AF /* Boss.h */,
+				26798AE71A02B53C000B31AF /* Boss.m */,
+				26798ADD1A02AEA7000B31AF /* Armor.h */,
+				26798ADE1A02AEA7000B31AF /* Armor.m */,
+				26798AE01A02AEB1000B31AF /* Weapon.h */,
+				26798AE11A02AEB1000B31AF /* Weapon.m */,
+				269EC72F1A1E5211005DBB05 /* TreasureChest.h */,
+				269EC7301A1E5211005DBB05 /* TreasureChest.m */,
+				262351CE1A1A854E000CD6FD /* Locale.h */,
+				262351CF1A1A854E000CD6FD /* Locale.m */,
+				2696CC891A28E802008125C5 /* Model */,
+				26798AB81A02AD33000B31AF /* ViewController.h */,
+				26798AB91A02AD33000B31AF /* ViewController.m */,
+				26798ABB1A02AD33000B31AF /* Main.storyboard */,
+				26798ABE1A02AD33000B31AF /* Images.xcassets */,
+				26798AC01A02AD33000B31AF /* LaunchScreen.xib */,
+				26798AB11A02AD33000B31AF /* Supporting Files */,
+			);
+			path = "Pirate Ground";
+			sourceTree = "<group>";
+		};
+		26798AB11A02AD33000B31AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26798AB21A02AD33000B31AF /* Info.plist */,
+				26798AB31A02AD33000B31AF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		26798ACA1A02AD33000B31AF /* Pirate GroundTests */ = {
+			isa = PBXGroup;
+			children = (
+				26798ACD1A02AD33000B31AF /* Pirate_GroundTests.m */,
+				26798ACB1A02AD33000B31AF /* Supporting Files */,
+			);
+			path = "Pirate GroundTests";
+			sourceTree = "<group>";
+		};
+		26798ACB1A02AD33000B31AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26798ACC1A02AD33000B31AF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2696CC891A28E802008125C5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				26798AD71A02AD53000B31AF /* Tile.h */,
+				26798AD81A02AD53000B31AF /* Tile.m */,
+				2696CC8A1A2930E8008125C5 /* Factory */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		2696CC8A1A2930E8008125C5 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				26798AE31A02B4DB000B31AF /* Factory.h */,
+				26798AE41A02B4DB000B31AF /* Factory.m */,
+			);
+			name = Factory;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26798AAD1A02AD33000B31AF /* Pirate Ground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26798AD11A02AD33000B31AF /* Build configuration list for PBXNativeTarget "Pirate Ground" */;
+			buildPhases = (
+				26798AAA1A02AD33000B31AF /* Sources */,
+				26798AAB1A02AD33000B31AF /* Frameworks */,
+				26798AAC1A02AD33000B31AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pirate Ground";
+			productName = "Pirate Ground";
+			productReference = 26798AAE1A02AD33000B31AF /* Pirate Ground.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26798AC61A02AD33000B31AF /* Pirate GroundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26798AD41A02AD33000B31AF /* Build configuration list for PBXNativeTarget "Pirate GroundTests" */;
+			buildPhases = (
+				26798AC31A02AD33000B31AF /* Sources */,
+				26798AC41A02AD33000B31AF /* Frameworks */,
+				26798AC51A02AD33000B31AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26798AC91A02AD33000B31AF /* PBXTargetDependency */,
+			);
+			name = "Pirate GroundTests";
+			productName = "Pirate GroundTests";
+			productReference = 26798AC71A02AD33000B31AF /* Pirate GroundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26798AA61A02AD33000B31AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Loh, Peter";
+				TargetAttributes = {
+					26798AAD1A02AD33000B31AF = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					26798AC61A02AD33000B31AF = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 26798AAD1A02AD33000B31AF;
+					};
+				};
+			};
+			buildConfigurationList = 26798AA91A02AD33000B31AF /* Build configuration list for PBXProject "Pirate Ground" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26798AA51A02AD33000B31AF;
+			productRefGroup = 26798AAF1A02AD33000B31AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26798AAD1A02AD33000B31AF /* Pirate Ground */,
+				26798AC61A02AD33000B31AF /* Pirate GroundTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26798AAC1A02AD33000B31AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26798ABD1A02AD33000B31AF /* Main.storyboard in Resources */,
+				26798AC21A02AD33000B31AF /* LaunchScreen.xib in Resources */,
+				26798ABF1A02AD33000B31AF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26798AC51A02AD33000B31AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26798AAA1A02AD33000B31AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26798AE21A02AEB1000B31AF /* Weapon.m in Sources */,
+				26798ABA1A02AD33000B31AF /* ViewController.m in Sources */,
+				269EC7311A1E5211005DBB05 /* TreasureChest.m in Sources */,
+				26798ADC1A02AE72000B31AF /* Character.m in Sources */,
+				26798AB71A02AD33000B31AF /* AppDelegate.m in Sources */,
+				26798AE51A02B4DC000B31AF /* Factory.m in Sources */,
+				26798ADF1A02AEA7000B31AF /* Armor.m in Sources */,
+				26798AE81A02B53C000B31AF /* Boss.m in Sources */,
+				262351D01A1A854E000CD6FD /* Locale.m in Sources */,
+				26798AB41A02AD33000B31AF /* main.m in Sources */,
+				26798AD91A02AD53000B31AF /* Tile.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26798AC31A02AD33000B31AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26798ACE1A02AD33000B31AF /* Pirate_GroundTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26798AC91A02AD33000B31AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26798AAD1A02AD33000B31AF /* Pirate Ground */;
+			targetProxy = 26798AC81A02AD33000B31AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26798ABB1A02AD33000B31AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26798ABC1A02AD33000B31AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26798AC01A02AD33000B31AF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26798AC11A02AD33000B31AF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26798ACF1A02AD33000B31AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		26798AD01A02AD33000B31AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26798AD21A02AD33000B31AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pirate Ground/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		26798AD31A02AD33000B31AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pirate Ground/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		26798AD51A02AD33000B31AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Pirate GroundTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pirate Ground.app/Pirate Ground";
+			};
+			name = Debug;
+		};
+		26798AD61A02AD33000B31AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Pirate GroundTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pirate Ground.app/Pirate Ground";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26798AA91A02AD33000B31AF /* Build configuration list for PBXProject "Pirate Ground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26798ACF1A02AD33000B31AF /* Debug */,
+				26798AD01A02AD33000B31AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26798AD11A02AD33000B31AF /* Build configuration list for PBXNativeTarget "Pirate Ground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26798AD21A02AD33000B31AF /* Debug */,
+				26798AD31A02AD33000B31AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26798AD41A02AD33000B31AF /* Build configuration list for PBXNativeTarget "Pirate GroundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26798AD51A02AD33000B31AF /* Debug */,
+				26798AD61A02AD33000B31AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26798AA61A02AD33000B31AF /* Project object */;
+}
